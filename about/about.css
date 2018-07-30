@@ -38,8 +38,9 @@ body {
 body {
     background-image: url(2017-09-01-18-43-10.jpg);
     background-repeat: no-repeat;
-    font-family: sans-serif;
-    background-position-y: -100px;
+    margin: 0;
+    padding: 0;
+    background-position-y: -170px;
   }
 
   .wrapper {
@@ -54,11 +55,15 @@ body {
     align-items: center;
     width: 100vw;
     justify-content: space-between;
+    background-color: #F6F6F6;
+    border-bottom: 2.5px solid #7E5563;
+    
   }
   
   .name {
     margin-left: 20px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    
   }
   
   .header-center {
@@ -79,12 +84,12 @@ body {
   
   a {
     text-decoration: none;
-    color: #f9f9f9;
+    color: #7E5563;
   }
   
   a:hover {
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: rgb(82, 82, 82);
   }
   /* content */
 
@@ -98,10 +103,40 @@ body {
       height: 250px;
       left: 0;
       display: flex;
+      border-top: 2.5px solid #7E5563;
 
   }
 
-  .content {
-      bottom: 20px;
+  .content-box {
+      display: flex;
+      bottom: 0;
+      margin-bottom: 0;
+      justify-content: center;
+      margin-top: 70px;
+      width: 1400px;
+      padding: 50px;
+      z-index: 0;
+
 
   }
+
+  /* Box */
+  .big-box {
+    width: 500px;
+    height: 250px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin-left: 33.3vw;
+    margin-right: 40vw;
+    margin-top: 40vh;
+    z-index: 1;
+    position: absolute;
+    border: 2px solid #7E5563;
+  }
+
+  .box-content {
+      padding: 20px;
+      
+      
+  }
+  
