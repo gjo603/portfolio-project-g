@@ -135,8 +135,16 @@ body {
   }
 
   .box-content {
+     
       padding: 20px;
+      justify-content: justify;
+      align-content: center;
+      text-align-last: center;
       
       
   }
+
+  #about {
+    border-bottom: 1px solid #7E5563;
+}
   
