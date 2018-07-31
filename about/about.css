@@ -1,159 +1,108 @@
-/* .links {
-    display: flex;
-    margin-left: 80px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 70px;
-    background: transparent;
-    text-decoration: none;
-    color: #F6F6F6;
-    font-size: 1.2em;
-    font-family: sans-serif;
-    font-weight: 700;
-    padding: 10px;
-
-
-   
+body {
+  background-image: url(2017-09-01-18-43-10jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-position-y: -170px;
 }
-.links a:hover {
-    background: rgb(27, 27, 27);
-   
-    
 
+.wrapper {
+  flex: auto;
 }
+
 .header {
-    background: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  border-bottom: 2.5px solid #7e5563;
 }
 
-#see-also {
-    left: 10px
+.name {
+  margin-left: 20px;
 }
 
-body {
-    background: url(2017-09-01-18-43-10.jpg) no-repeat ;
-    
-
-} */
-
-body {
-    background-image: url(2017-09-01-18-43-10.jpg);
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    background-position-y: -170px;
-  }
-
-  .wrapper {
-  
-    flex: auto;
-  }
-  
-  .header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100vw;
-    justify-content: space-between;
-    background-color: #F6F6F6;
-    border-bottom: 2.5px solid #7E5563;
-    
-  }
-  
-  .name {
-    margin-left: 20px;
-    /* font-family: sans-serif; */
-    
-  }
-  
-  .header-center {
-    display: flex;
-    flex-direction: row;
-    padding-right: 60px;
-  }
-  
-  .header-right {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .link {
-    margin: 15px;
-    padding: 15px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #7E5563;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(82, 82, 82);
-  }
-  /* content */
-
-  .sub-content {
-      bottom: 0;
-      margin-bottom: 0;
-      justify-content: center;
-      background-color: white;
-      position: absolute;
-      width: 100vw;
-      height: 250px;
-      left: 0;
-      display: flex;
-      border-top: 2.5px solid #7E5563;
-
-  }
-
-  .content-box {
-      display: flex;
-      bottom: 0;
-      margin-bottom: 0;
-      justify-content: center;
-      margin-top: 70px;
-      width: 1400px;
-      padding: 50px;
-      z-index: 0;
-
-
-
-
-  }
-
-  .content {
-    height: 200px;
-    width: 300px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-
-  /* Box */
-  .big-box {
-    width: 500px;
-    height: 250px;
-    background-color: #F6F6F6;
-    border-radius: 10px;
-    margin-left: 33.3vw;
-    margin-right: 40vw;
-    margin-top: 40vh;
-    z-index: 1;
-    position: absolute;
-    border: 2px solid #7E5563;
-  }
-
-  .box-content {
-     
-      padding: 20px;
-      justify-content: justify;
-      align-content: center;
-      text-align-last: center;
-      
-      
-  }
-
-  #about {
-    border-bottom: 1px solid #7E5563;
+.header-center {
+  display: flex;
+  flex-direction: row;
+  padding-right: 60px;
 }
-  
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 15px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #7e5563;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 82, 82);
+}
+
+.sub-content {
+  bottom: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  width: 100vw;
+  height: 250px;
+  left: 0;
+  display: flex;
+  border-top: 2.5px solid #7e5563;
+}
+
+.content-box {
+  display: flex;
+  bottom: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  margin-top: 70px;
+  width: 1400px;
+  padding: 50px;
+  z-index: 0;
+}
+
+.content {
+  height: 100px;
+  width: 500px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: -15vh;
+}
+
+.big-box {
+  width: 500px;
+  height: 250px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin-left: 33.3vw;
+  margin-right: 40vw;
+  margin-top: 40vh;
+  z-index: 1;
+  position: absolute;
+  border: 2px solid #7e5563;
+}
+
+.box-content {
+  padding: 20px;
+  justify-content: justify;
+  align-content: center;
+  text-align-last: center;
+}
+
+#about {
+  border-bottom: 1px solid #7e5563;
+}

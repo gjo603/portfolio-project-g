@@ -90,7 +90,7 @@ body {
 .fakeimg {
   background-color: #f6f6f6;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   border: 2px solid #7E5563;
   border-radius: 10px;
 }
@@ -139,38 +139,49 @@ body {
   size: 100%;
   width: 100%;
   height: 100% !important;
+  border-radius: 3px;
 }
 
 .football-img {
   size: 100%;
   width: 100%;
   height: 100% !important;
+  border-radius: 3px;
 }
 .photographer {
   size: 100%;
   width: 100%;
   height: 100% !important;
+  border-radius: 3px;
 }
 
 .scout {
   size: 100%;
-  width: 600px;
+  width: 880px;
   height: 100% !important;
+  border-radius: 3px;
 }
 
 
 /* styling */
 
 p {
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
   border: 2px solid #7E5563;
 }
 
 ul {
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
   border: 2px solid #7E5563;
+}
+
+.sjh img {
+  size: 100%;
+  width: 100%;
+  height: 400px !important;
+  border-radius: 3px;
 }
 /* .social-media{
   display: flex;
