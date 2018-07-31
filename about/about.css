@@ -118,6 +118,15 @@ body {
       z-index: 0;
 
 
+
+
+  }
+
+  .content {
+    height: 200px;
+    width: 300px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 
   /* Box */
