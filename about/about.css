@@ -55,7 +55,7 @@ a:hover {
   bottom: 0;
   margin-bottom: 0;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(223, 223, 223);
   position: absolute;
   width: 100vw;
   height: 250px;
@@ -87,7 +87,7 @@ a:hover {
   width: 500px;
   height: 250px;
   background-color: #f6f6f6;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-left: 33.3vw;
   margin-right: 40vw;
   margin-top: 40vh;
